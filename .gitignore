@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+hf_cache/
+transformers_cache/
+
+# FAISS / vector indexes / temporary artifacts
+*.faiss
+*.index
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Local data artifacts
+data/raw/
+data/interim/
+data/processed/
+
+# Notebook exports / temp files
+*.tmp
+*.bak
+
+# Secrets / env files
+.env
+.env.*
+secrets.json
